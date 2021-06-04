@@ -1,12 +1,12 @@
 import discord
 from discord.ext import commands
 
-token = "TOKEN_HERE"
+token = "NzkzNzA5MDQ5NTg1MjA1MjY5"
 
 bot = commands.Bot(command_prefix = "123456789")
 
 print('What would you like to stream?')
-status = input(' > ')
+status = input('purple status color haha')
 
 @bot.event
 async def on_connect():
